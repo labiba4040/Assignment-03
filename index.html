@@ -17,10 +17,129 @@
       }
     }
   </script>
+<!-- google font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<style>
+
+.font-manrope{
+    font-family:  "Manrope", sans-serif;
+}
+
+</style>
+
+<!-- font awesome cdn -->
+
+<script src="https://kit.fontawesome.com/8f2c9564b3.js" crossorigin="anonymous"></script>
+
 
 </head>
-<body>
-    <h3 class="text-slate-500 font-bold">Hello world</h3>
+<body class=" font-manrope">
+    <header  >
+    
+        <section >
+            <div class="navbar bg-base-100 container mx-auto px-8 lg:px-10 lg:py-5">
+              <div class="navbar-start flex gap-2">
+                <div class="bg-[#ABEF5F] flex rounded-full w-8 h-8 p-3 justify-center items-center">
+                  <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </div>
+                <div class="text-left font-extrabold">
+                  <a class="text-3xl">Rinterio</a></div>
+               
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-md text-gray-500">
+                  <li class="hover:text-gray-900 font-bold duration-300 ease-in-out"><a  href="#">Home</a></li>
+                  <li class="hover:text-gray-900 font-bold duration-300 ease-in-out"><a href="#">Services</a></li>
+                  <li class="hover:text-gray-900 font-bold duration-300 ease-in-out"><a href="#">Portfolio</a></li>
+                  <li class="hover:text-gray-900 font-bold duration-300 ease-in-out"><a href="#">Blogs</a></li>
+                  <li class="hover:text-gray-900 font-bold duration-300 ease-in-out"><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+
+
+              <div class="navbar-end ">
+              <div class="hidden lg:flex justify-center items-center gap-6">
+                <div class="bg-[#FFFFFF]  border-[1px] flex rounded-full w-8 h-8 p-3 justify-center items-center">
+                  <i class="fa-solid fa-magnifying-glass text-black-300 opacity-50 "></i>
+                </div>
+                <div class="bg-[#FFFFFF]  border-[1px] flex rounded-full w-8 h-8 p-3 justify-center items-center">
+                  <i class="fa-solid fa-cart-shopping text-black-300 opacity-50"></i>
+                </div>
+                <div class=" bg-[#ABEF5F] flex rounded-3xl px-3 py-2 gap-3 justify-center items-center">
+                  <div>
+                    <h3 class="text-black text-lg font-bold">Book Consult</h3>
+                  </div>
+                  <div class="bg-black flex rounded-full w-8 h-8 p-3 justify-center items-center">
+                    <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                  </div>
+                </div>
+              </div>
+                
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost bg-[#FFFFFF] rounded-full lg:hidden">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 text-lg font-medium gap-5">
+                    <li><a  href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+           </section>
+ <!-- banner section -->
+           <section class="container mx-auto my-12 ">
+              <!-- image div -->
+               <div class="flex  justify-center px-6">
+                 <img src="./assets/banner.png" alt="">
+               </div>
+               <!-- Text div -->
+                <div class="  justify-center items-center text-center space-y-9 mt-8 px-6">
+                    
+                        <h3 class="lg:text-6xl text-4xl lg:font-extrabold font-bold text-[#212121]">A barn house of this design has a <br> striking appearance</h3>
+                    <p class="lg:text-lg text-sm font-medium text-[#494949] lg:w-[972px] mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                   
+                    </div>
+                    <div class="lg:w-1/6 w-3/4 mx-auto my-10">
+                        <div class=" bg-[#ABEF5F80] flex rounded-3xl px-3 py-2 gap-3  justify-center items-center">
+                            <div>
+                              <h3 class="text-black text-lg font-bold">View Details</h3>
+                            </div>
+                            <div class="bg-[#ABEF5F] flex rounded-full w-8 h-8 p-3 justify-center items-center">
+                              <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                            </div>
+                          </div>
+                    </div>
+                        
+                    
+                       
+                
+
+           </section>
+        
+    </header>
+    <main></main>
+    <footer></footer>
     
 </body>
 </html>
